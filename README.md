@@ -48,7 +48,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select Windows Server 2022: Azure Edition - x64 Gen2 as the image
 - size    (Standard_D2s_v3 - 2 vcpus, 8 GiB memory)
 - Create a username and password for your VM DC-1
-![image](https://github.com/user-attachments/assets/2341bf39-8667-420b-953f-caeb221df308)
+![Screen Shot 2025-08-27 at 11 30 17 AM](https://github.com/user-attachments/assets/68d4f28d-320d-423b-b253-a835e7a1bff3)
+
 
 
 2. Create a virtual machine this will be our client machine
@@ -60,7 +61,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a username and password for your VM client-1
 - Make sure to select the same resource group and Virtual networkfrom the DC-01 VM
 
-![image](https://github.com/user-attachments/assets/d592b6eb-f3e6-4410-88da-555c82419bbb)
+![Screen Shot 2025-08-27 at 11 41 25 AM](https://github.com/user-attachments/assets/f6f7ec25-d733-4de0-bd69-19bb402e3cd1)
+
 
 3. Set the Domain Controller's Private IP to static
 
@@ -68,14 +70,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Once the VM has been deployed, proceed to the VM overview page and select "Networking" -> network setting  on the left side.
 
-![image](https://github.com/user-attachments/assets/678e0d6a-b2bd-46a8-94ad-bb972353e47f)
+![Screen Shot 2025-08-27 at 11 46 40 AM](https://github.com/user-attachments/assets/ebe4b183-6238-422f-9763-f60a06875a5b)
 
 
 
 - Select Network Interface Card -> IP configurations -> ipconfig1 and set Private IP address allocation to static.
 
 
-![image](https://github.com/user-attachments/assets/3b93fcde-31d0-444f-81d1-54103b6b5a5e)
+![Screen Shot 2025-08-27 at 11 48 48 AM](https://github.com/user-attachments/assets/d5df4794-1fbc-4ceb-accf-f3062674b390)
+
 
 
 4.Login to DC-01 using remote desktop (for mac user use windows app)
