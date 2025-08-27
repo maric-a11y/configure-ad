@@ -109,7 +109,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Now we can ping DC-1 successfully from Client-1  
 
-![image](https://github.com/user-attachments/assets/8cd1563d-0faa-40ce-955f-6f953739a0a5)
+![Screen Shot 2025-08-27 at 12 19 09 PM](https://github.com/user-attachments/assets/5ad7fed5-abd1-41c9-8801-c7a16f02b944)
 
 
 <h2></h2>
