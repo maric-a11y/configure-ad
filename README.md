@@ -168,7 +168,7 @@ Configure and install Active Directory services on the designated Domain Control
 
 - Use jane _admin as your admin account from now on
 
-![image](https://github.com/user-attachments/assets/0c062ab7-29b0-4a14-a4d3-35ddaea00639)
+![Screen Shot 2025-08-27 at 12 50 52 PM](https://github.com/user-attachments/assets/1c82f021-0b85-46c1-8d5c-0ce99312609d)
 
 
 
@@ -182,12 +182,11 @@ Configure and install Active Directory services on the designated Domain Control
 
 - Select a custom DNS server and type in the private ip address of DC-01 and save then restart Client-01
 
-![image](https://github.com/user-attachments/assets/8258c825-8030-4c55-85db-9228cceb7ed3)
+![Screen Shot 2025-08-27 at 12 54 06 PM](https://github.com/user-attachments/assets/c9a2c9f8-2379-4109-8ba0-86b5487378b1)
 
 - From Client-1, open PowerShell and run ipconfig /all
-- The output for the DNS settings should show DC-1's private IP Address I
+- The output for the DNS settings should show DC-1's private IP Address I (see previous screenshot from step 6)
 
-![image](https://github.com/user-attachments/assets/6a262bb6-d5be-4328-9e50-4d5540ecaa88)
 
 8. Login to Client-1 as the original local admin and join it to the domain (computer will restart)
 
