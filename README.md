@@ -87,8 +87,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Enter the password and username you created for your VM 
 - Login
 
-![image](https://github.com/user-attachments/assets/8240c4c0-2281-4d35-86ea-f631e2ce9180)
-
 
 5. Once logged in to DC_1 i will enable inbound ICMP traffic to allow for Client-1's ping
 
